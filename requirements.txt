@@ -705,9 +705,9 @@ pytest==8.3.2
 
 # Optional monitoring / explainability
 # shap      # for model explainability (optional)
-evidently
+# evidently
 
-shap
+# shap
 
 numpy==1.26.4 
 spacy==3.7.2  #3.8.7
@@ -721,6 +721,6 @@ streamlit
 
 emoji
 
-re
+
 # uv pip install spacy[transformers] https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 #  uv run python -m spacy download en_core_web_sm
